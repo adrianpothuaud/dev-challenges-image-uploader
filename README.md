@@ -8,12 +8,8 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://apothuaud-dev-challenges-image-uploader.vercel.app/">
       Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx">
@@ -27,24 +23,25 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [How to use](#how-to-use)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](app_preview.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+The demo is deployed using [Vercel](https://vercel.com/) and available on https://apothuaud-dev-challenges-image-uploader.vercel.app/ 
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+I realized this project in like 4 hours, that was a great experience to try and look around for solutions for file upload using React. Hopefully I found a [very usefull library](https://react-dropzone.js.org/) for the drag and drop zone, and for the classical file input I used a technic I already faced before, an hidden file input with a ref using React hook `useRef`.
+
+I learned to follow a Figma design template to create an App, thing that I've never done before, and it was pretty straight forward due to Figma cool features like CSS properties.
+
+I improved my Cypress skills by trying and implementing file uploads and drag and drop tests. Honestly I don't really know if the drag and drop with Cypress is reproducing the user behavior, but it seems to do the job.
+
+I found this project was very cool, I think I'll try to tackle this project using no framework the next time.
 
 ### Built With
 
@@ -58,6 +55,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
+
+I added one more feature that is a reset button to be able to upload a new Image at the end.
 
 ## How To Use
 
